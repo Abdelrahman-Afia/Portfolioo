@@ -1,0 +1,31 @@
+.nav-bar {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 217px;
+  padding-top: 40px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  width: 782px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 100px;
+}
+
+.nav-text {
+  color: #fff;
+  font-family: Schibsted Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

@@ -1,0 +1,26 @@
+.download-btn {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 56px;
+  border: 2px solid #00e1ff;
+}
+
+.download-icon {
+  width: 20px;
+  height: 18px;
+}
+
+.download-style {
+  color: #fff;
+  font-family: Schibsted Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
