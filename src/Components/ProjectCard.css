@@ -1,0 +1,93 @@
+.project-card {
+  background: rgba(108, 99, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}
+
+.project-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image img {
+  transform: scale(1.05);
+}
+
+.project-info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-text h3 {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+
+.project-text p {
+  color: #888;
+  font-size: 14px;
+  margin: 0;
+}
+
+.project-arrow {
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 163, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.project-arrow img {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-arrow {
+  background: #00a3ff;
+}
+
+.project-card:hover .project-arrow img {
+  transform: rotate(-45deg);
+  filter: brightness(5);
+}
+
+.project-arrow-img {
+  background: rgba(0, 163, 255, 0.1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover .project-arrow {
+  background: #00a3ff;
+}
+
+.project-card:hover .project-arrow svg path {
+  stroke: #ffffff;
+}
