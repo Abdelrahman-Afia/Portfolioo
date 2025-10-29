@@ -2,6 +2,7 @@ import React from "react";
 import "./BlogPage.css";
 import Nav from "../Components/nav.jsx";
 import Hero from "../Components/Hero.jsx";
+import ContactForm from "../Components/ContactForm.jsx";
 import Footer from "../Components/Footer.jsx";
 
 const Contactpage = () => {
@@ -9,7 +10,7 @@ const Contactpage = () => {
     <>
       <Nav />
       <Hero />
-
+      <ContactForm />
       <Footer />
     </>
   );
