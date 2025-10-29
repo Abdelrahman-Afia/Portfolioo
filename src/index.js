@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Taskly from "./Pages/Taskly";
+import Blog from "./Pages/Blog";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Taskly />
+    <Blog />
   </React.StrictMode>
 );
 
