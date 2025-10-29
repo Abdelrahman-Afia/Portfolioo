@@ -14,7 +14,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
+  gap: 24px;
 }
 
 .info-card::before {
@@ -34,20 +34,20 @@
 .card-icon {
   width: 60px;
   height: 60px;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 
 .info-card h3 {
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .card-items {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 16px;
   align-items: center;
   width: 100%;
 }

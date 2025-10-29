@@ -23,17 +23,17 @@ h6 {
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 64px 32px;
 }
 
 .about-header {
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 
 .about-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 40px;
+  margin-bottom: 16px;
   color: #ffffff;
 }
 
@@ -44,7 +44,7 @@ h6 {
 .about-description {
   max-width: 800px;
   margin: 0 auto;
-  font-size: 1.1rem;
+  font-size: 17px;
   line-height: 1.6;
   color: #cccccc;
 }
@@ -52,10 +52,10 @@ h6 {
 .cards-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 32px;
+  padding: 32px;
   flex-wrap: wrap;
-  margin: 3rem auto;
+  margin: 48px auto;
   max-width: 1200px;
 }
 
@@ -68,7 +68,7 @@ h6 {
 .card {
   background: linear-gradient(145deg, #1a1a2e 0%, #16213e 100%);
   border-radius: 20px;
-  padding: 2rem;
+  padding: 32px;
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -84,7 +84,7 @@ h6 {
 .card-icon {
   width: 60px;
   height: 60px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 
 .card-icon img {
@@ -94,20 +94,20 @@ h6 {
 }
 
 .card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+  font-size: 24px;
+  margin-bottom: 16px;
   color: #fff;
 }
 
 .card h4 {
-  font-size: 1.2rem;
+  font-size: 19px;
   color: #6c63ff;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .card p {
   color: #cccccc;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
 
 .card span {
@@ -123,14 +123,14 @@ h6 {
 
 .coursework-details li {
   color: #cccccc;
-  padding: 0.5rem 0;
-  font-size: 1.1rem;
+  padding: 8px 0;
+  font-size: 17px;
 }
 
 .image-container {
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
+  margin: 32px 0;
 }
 
 .Profile-img {
@@ -151,8 +151,8 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
-  margin-bottom: 3rem;
+  padding: 32px 0;
+  margin-bottom: 48px;
 }
 
 .profile-image-container {
@@ -182,7 +182,7 @@ h6 {
 
 .about-content {
   display: grid;
-  gap: 3rem;
+  gap: 48px;
 }
 
 .profile-section {
