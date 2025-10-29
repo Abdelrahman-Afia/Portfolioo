@@ -4,6 +4,7 @@ import Nav from "../Components/nav.jsx";
 import Hero from "../Components/Hero.jsx";
 import Section1 from "../Components/Section1.jsx";
 import Section2 from "../Components/Section2.jsx";
+import Section3 from "../Components/Section3.jsx";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Hero />
       <Section1 />
       <Section2 />
+      <Section3 />
     </>
   );
 };
