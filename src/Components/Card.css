@@ -10,24 +10,57 @@
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .info-card::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -1px;
   left: -1px;
   right: -1px;
   bottom: -1px;
-  background: linear-gradient(90deg, #00E1FF, #7700FF);
+  background: linear-gradient(90deg, #00e1ff, #7700ff);
   border-radius: 24px;
   opacity: 0;
   transition: opacity 0.3s ease;
   z-index: -1;
 }
 
+.card-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.info-card h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.card-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+.card-item {
+  color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
 .info-card::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 1px;
   left: 1px;

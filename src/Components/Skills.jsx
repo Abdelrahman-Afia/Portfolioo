@@ -1,8 +1,6 @@
 import React from "react";
 import SkillBar from "./SkillBar";
 import "./Skills.css";
-
-// Import skill icons
 import JavaScriptIcon from "../Assets/JavaScript.png";
 import TypeScriptIcon from "../Assets/TypeScript.png";
 import ReactIcon from "../Assets/React.png";
