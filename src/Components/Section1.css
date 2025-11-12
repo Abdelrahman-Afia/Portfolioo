@@ -6,7 +6,10 @@
   padding: 100px 20px;
 }
 
-.about-content {
+.about-section .about-content {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;

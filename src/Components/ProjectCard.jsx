@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ProjectCard.css";
 import Arrow from "../Assets/Project Arrow.png";
 
-const ProjectCard = ({ image, title, category }) => {
-  return (
+const ProjectCard = ({ image, title, category, link }) => {
+  const cardContent = (
     <div className="project-card">
       <div className="project-image">
         <img src={image} alt={title} />
@@ -18,6 +19,14 @@ const ProjectCard = ({ image, title, category }) => {
         </div>
       </div>
     </div>
+  );
+
+  return link ? (
+    <Link to={link} style={{ textDecoration: "none" }}>
+      {cardContent}
+    </Link>
+  ) : (
+    cardContent
   );
 };
 

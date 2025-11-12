@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./nav.css";
 import img1 from "../Assets/Logo.svg";
 import Download from "./download.jsx";
@@ -22,21 +23,21 @@ const Nav = () => {
 
       <div className={`nav-mobile ${isMenuOpen ? "open" : ""}`}>
         <div className="nav-links">
-          <a href="#home" className="nav-text">
+          <Link to="/" className="nav-text">
             Home
-          </a>
-          <a href="#about" className="nav-text">
+          </Link>
+          <Link to="/about" className="nav-text">
             About
-          </a>
-          <a href="#portfolio" className="nav-text">
+          </Link>
+          <Link to="/portfolio" className="nav-text">
             Portfolio
-          </a>
-          <a href="#blog" className="nav-text">
+          </Link>
+          <Link to="/blog" className="nav-text">
             Blog
-          </a>
-          <a href="#contact" className="nav-text">
+          </Link>
+          <Link to="/contact" className="nav-text">
             Contact
-          </a>
+          </Link>
         </div>
         <div className="mobile-download">
           <Download />
@@ -45,21 +46,21 @@ const Nav = () => {
 
       <div className="desktop-nav">
         <div className="nav-links">
-          <a href="#home" className="nav-text">
+          <Link to="/" className="nav-text">
             Home
-          </a>
-          <a href="#about" className="nav-text">
+          </Link>
+          <Link to="/about" className="nav-text">
             About
-          </a>
-          <a href="#portfolio" className="nav-text">
+          </Link>
+          <Link to="/portfolio" className="nav-text">
             Portfolio
-          </a>
-          <a href="#blog" className="nav-text">
+          </Link>
+          <Link to="/blog" className="nav-text">
             Blog
-          </a>
-          <a href="#contact" className="nav-text">
+          </Link>
+          <Link to="/contact" className="nav-text">
             Contact
-          </a>
+          </Link>
         </div>
         <Download />
       </div>

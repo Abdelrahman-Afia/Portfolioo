@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Portfolio.css";
+import { Link } from "react-router-dom";
 import Nav from "../Components/nav.jsx";
 import Footer from "../Components/Footer.jsx";
 import ProjectCard from "../Components/ProjectCard.jsx";
@@ -21,6 +22,7 @@ const Portfolio = () => {
       category: "UX-UI Design",
       subcategory: "Productivity",
       image: taskly,
+      link: "/taskly",
     },
     {
       title: "District 13",
@@ -105,6 +107,7 @@ const Portfolio = () => {
               image={project.image}
               title={project.title}
               category={project.subcategory}
+              link={project.link}
             />
           ))}
         </div>

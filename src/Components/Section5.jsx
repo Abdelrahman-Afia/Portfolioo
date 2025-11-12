@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Section5.css";
 import ProjectCard from "./ProjectCard";
 
@@ -16,6 +17,7 @@ const Section5 = () => {
       image: Taskly,
       title: "Taskly",
       category: "Productivity",
+      link: "/taskly",
     },
     {
       image: District13,
@@ -57,24 +59,26 @@ const Section5 = () => {
           ))}
         </div>
         <div className="view-more-container">
-          <button className="view-more-btn">
-            View More
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 20 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5.83334 14.1667L14.1667 5.83334M14.1667 5.83334H5.83334M14.1667 5.83334V14.1667"
-                stroke="currentColor"
-                strokeWidth="1.67"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+          <Link to="/portfolio" style={{ textDecoration: "none" }}>
+            <button className="view-more-btn">
+              View More
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.83334 14.1667L14.1667 5.83334M14.1667 5.83334H5.83334M14.1667 5.83334V14.1667"
+                  stroke="currentColor"
+                  strokeWidth="1.67"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
       </div>
     </section>
