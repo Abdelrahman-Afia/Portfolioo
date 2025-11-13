@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Blog.css";
-import Nav from "../Components/nav.jsx";
-import Footer from "../Components/Footer.jsx";
 import Hero from "../Components/Hero.jsx";
 import FigmaXD from "../Assets/figma-vs-xd.png";
 import TrendCSS from "../Assets/Trend CSS Classes.png";
@@ -9,6 +8,8 @@ import WhatIsAPI from "../Assets/What is API.jpg";
 import WillAIReplace from "../Assets/Will AI Replace US.jpg";
 import SQLvsNOSQL from "../Assets/NOSQL Vs SQL.jpg";
 import UITrends from "../Assets/UI Trends.png";
+import Nav from "../Components/nav.jsx";
+import Footer from "../Components/Footer.jsx";
 
 const Blog = () => {
   const blogPosts = [
@@ -19,7 +20,7 @@ const Blog = () => {
       image: FigmaXD,
       description:
         "A comprehensive comparison of two popular design tools, helping you choose the right one for your workflow.",
-      link: "#",
+      link: "/blog/1",
     },
     {
       id: 2,
@@ -91,7 +92,7 @@ const Blog = () => {
                 <span className="blog-card-tag">{post.tag}</span>
                 <h2>{post.title}</h2>
                 <p className="blog-card-description">{post.description}</p>
-                <a href={post.link} className="blog-card-link">
+                <Link to={post.link} className="blog-card-link">
                   Read More
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +105,7 @@ const Blog = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           ))}
