@@ -1,0 +1,20 @@
+.contact-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg, #010208 0%, #010206 100%);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+}
