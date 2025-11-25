@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import Nav from "../Components/nav.jsx";
-import Hero from "../Components/Hero.jsx";
+import Hero from "../Components/HeroAbout.jsx";
 import Footer from "../Components/Footer.jsx";
 import Skills from "../Components/Skills.jsx";
 import Afia from "../Assets/Afia.png";

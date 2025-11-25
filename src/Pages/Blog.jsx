@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Blog.css";
-import Hero from "../Components/Hero.jsx";
+import Hero from "../Components/HeroBlog.jsx";
 import FigmaXD from "../Assets/figma-vs-xd.png";
 import TrendCSS from "../Assets/Trend CSS Classes.png";
 import WhatIsAPI from "../Assets/What is API.jpg";

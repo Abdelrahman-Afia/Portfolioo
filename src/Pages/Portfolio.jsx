@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Nav from "../Components/nav.jsx";
 import Footer from "../Components/Footer.jsx";
 import ProjectCard from "../Components/ProjectCard.jsx";
-import Hero from "../Components/Hero.jsx";
+import Hero from "../Components/HeroPortfolio.jsx";
 import taskly from "../Assets/Taskly.jpg";
 import district13 from "../Assets/District 13.jpg";
 import adventour from "../Assets/Adventour.jpg";
