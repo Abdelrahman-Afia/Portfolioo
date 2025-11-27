@@ -7,10 +7,12 @@ import Blog from "./Pages/Blog";
 import Contactpage from "./Pages/Contactpage";
 import BlogPage from "./Pages/BlogPage";
 import Taskly from "./Pages/Taskly";
+import ScrollToTop from "./ScrollToTop";
 
 const Routess = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
